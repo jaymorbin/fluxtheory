@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
-    
+
     <style>
         /* General Setup */
         body {
             font-family: 'Merriweather', serif;
             line-height: 1.7;
-            background-color: #fdfdfd;
-            color: #333;
+            background-color: #111111; /* Near-black background */
+            color: #b0f0b0; /* A pale, readable green for main text */
             margin: 0;
             padding: 0;
         }
@@ -23,8 +23,8 @@
         header {
             text-align: center;
             padding: 40px 20px 20px 20px;
-            background-color: #f0f0f0;
-            border-bottom: 1px solid #ddd;
+            background-color: #1a1a1a; /* A very dark gray, not pure black */
+            border-bottom: 1px solid #33FF33; /* Bright green accent */
         }
 
         main {
@@ -36,9 +36,9 @@
         footer {
             text-align: center;
             font-size: 0.9em;
-            color: #888;
+            color: #777; /* Keep footer subtle */
             padding: 30px 20px;
-            border-top: 1px solid #eee;
+            border-top: 1px solid #444; /* Dark gray separator */
             margin-top: 60px;
         }
 
@@ -48,26 +48,28 @@
             font-size: 2.5em;
             font-weight: 600;
             margin: 0;
+            color: #33FF33; /* Bright green for main title */
         }
 
         header p {
             font-family: 'Source Sans Pro', sans-serif;
             font-size: 1.2em;
-            color: #555;
+            color: #b0f0b0; /* Use the readable green */
             margin: 5px 0 0 0;
         }
 
         h2 {
             font-family: 'Source Sans Pro', sans-serif;
             font-size: 1.8em;
-            border-bottom: 2px solid #eee;
+            border-bottom: 2px solid #444; /* Dark gray separator */
             padding-bottom: 10px;
+            color: #ffffff; /* White for section titles for max contrast */
         }
 
         h3 {
             font-family: 'Source Sans Pro', sans-serif;
             font-size: 1.4em;
-            color: #444;
+            color: #33FF33; /* Bright green for sub-headings */
         }
 
         p, li {
@@ -93,7 +95,7 @@
         /* --- CLEANER STYLE FOR LIST TITLES --- */
         .list-title {
             font-weight: 600;
-            color: #333;
+            color: #ffffff; /* White for list titles for contrast */
             font-family: 'Source Sans Pro', sans-serif;
         }
 
@@ -102,8 +104,10 @@
             font-family: 'Source Sans Pro', sans-serif;
             font-style: italic;
             font-weight: 600;
-            color: #111;
-            padding: 0 2px;
+            color: #ffffff; /* Make math white to stand out */
+            background-color: #2a2a2a; /* Give math a slightly different dark background */
+            padding: 2px 5px;
+            border-radius: 3px;
         }
         
         /* --- STYLE FOR DISPLAYED EQUATIONS --- */
@@ -114,9 +118,13 @@
             font-family: 'Source Sans Pro', sans-serif;
             font-style: italic;
             font-weight: 600;
-            color: #111;
+            color: #ffffff;
+            background-color: #2a2a2a;
+            border-radius: 5px;
+            margin: 10px 0;
         }
     </style>
+    
 </head>
 <body>
     <header>
@@ -202,3 +210,4 @@
     </footer>
 </body>
 </html>
+
