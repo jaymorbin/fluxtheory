@@ -78,3 +78,12 @@ p, li {
 ol, ul {
     padding-left: 30px;
 }
+
+/* Style for mathematical variables and equations */
+.math {
+    font-family: 'Source Sans Pro', sans-serif; /* Use the clean title font */
+    font-style: italic; /* Traditional for variables */
+    font-weight: 600;  /* Make it slightly bolder */
+    color: #111;      /* Make it stand out with a darker color */
+    padding: 0 2px;    /* A tiny bit of breathing room */
+}
